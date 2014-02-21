@@ -1,0 +1,21 @@
+.banners {
+   text-align: left;
+   background: #cecece;
+   padding: 10px 30px;
+}
+
+.banner_columns 
+{
+  float: left;
+  text-align: center;
+}
+
+.banner_columns h5
+{
+  padding-bottom: 10px;
+}
+
+.banners .images a {
+  float: left;
+  padding: 5px;
+}

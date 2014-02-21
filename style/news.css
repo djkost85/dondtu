@@ -1,0 +1,56 @@
+body a {
+  text-decoration: none;
+}
+
+.news {
+  display: block;
+  overflow: hidden;
+}
+
+.new {
+  display: block;
+  width: 280px;
+  min-height: 262px;
+  text-align: left;
+  margin: 20px 55px 20px 0px;
+  float: left;
+}
+
+.new img {
+  width: 260px;
+  height: 146px;
+  display: block;
+}
+
+.new h5 {
+  background: url(../images/title.png) no-repeat 0% 0%;
+  height: 40px;
+  margin: 0;
+  line-height: 38px;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 14px;
+  color: white;
+}
+
+.new a {
+  display: block;
+  width: 260px;
+}
+
+.new h5 a {
+  margin-left: -5px;
+}
+
+.new h5 a:hover {
+  color: #242222;  
+}
+
+.new .preview {
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  width: 260px;
+  padding-top: 10px;
+  text-align: justify;
+}

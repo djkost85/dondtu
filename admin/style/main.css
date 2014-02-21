@@ -1,0 +1,230 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  font-size: 11px;
+  color: #333;
+}
+
+#loading {
+  margin: 45px 92px;
+}
+
+input[type="text"], input[type="password"] {
+  border: solid 1px grey;
+  margin-top: 10px;
+  padding: 3px;
+  font-size: 11px;
+  width: 200px;
+}
+
+#radio {
+  font-size: 10px;
+}
+
+.button {
+  margin: 10px 0;
+  display: block;
+  width: 200px;
+}
+
+ul#slides {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#slides li {
+  margin: 0 15px 6px 0;
+  float: left;
+}
+
+ul#slides a {
+  display: block;
+}
+
+ul#slides img {
+  cursor: pointer;
+  height: 100%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  height: 65px;
+  width: 160px;
+}
+
+h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #4596cb;
+  font-size: 12px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#link {
+  border: solid 1px #888;
+  padding: 3px;
+  width: 97%;
+  height: 25px;
+  line-height: 20px;
+  text-align: center;
+}
+
+a.confirm {
+  display: block;
+  margin-top: 10px;
+  width: 208px;
+}
+
+a#images, a#admin {
+  margin-left: 20px;
+}
+
+a#save {
+  color: #08b;
+}
+
+a#load {
+  color: #0a0;
+}
+
+a#confirm {
+  color: #1c567f;
+}
+
+a#neutral {
+  color: #a3a3a3;
+}
+
+a.vk {
+  color: #800;
+}
+
+div.block {
+  display: block;
+  overflow: hidden;
+}
+
+div.container {
+  float: left;
+}
+
+div.commands {
+  display: inline;
+  margin: 0 15px 0 15px;
+}
+
+div.commands a {
+  margin-left: 10px;
+}
+
+#imageLibrary div.holder {
+  float: left;
+  margin: 2px;
+  padding: 2px;
+  cursor: pointer;
+  width: 160px;
+  height: 120px;
+  background-color: #ddd;
+  display: table;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#imageLibrary div.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#imageLibrary img {
+  display: table-cell;
+  margin: 0 auto;
+}
+
+#target {
+  height: 500px !important;
+  width: auto !important;
+}
+
+input[type="button"].submit {
+  background: #4595ca url(../../images/submit.gif) repeat-x 0% 0%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.32);
+  border: none;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0 16px 0;
+  float: right;
+}
+
+input[type="button"].submit:hover {
+  background: none;
+  background-color: #ddd;
+  color: #444;
+  border: solid 1px #888;
+}
+
+table#single td {
+  padding: 5px;
+  color: #333;
+}
+
+table#single th {
+  text-align: right;
+  padding: 9px 8px 5px 5px;
+  vertical-align: top;
+  color: #fff;
+  min-width: 95px;
+  color: #333;
+}
+
+table#single input[type="text"], table#single textarea, table#single div {
+  border: solid 1px #636363;
+  margin: 0;
+  padding: 2px;
+  width: 256px;
+  background-color: transparent;
+  color: #333;
+}
+
+table#single div {
+  resize: both;
+  overflow: auto;
+  width: 256px;
+  height: 120px;
+}
+
+table#single a.imageWrapper {
+  border: solid 1px #636363;
+  cursor: pointer;
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 260px;
+  height: 146px;
+}
+
+input[type="checkbox"] {
+  margin: 0 0 0 5px;
+}

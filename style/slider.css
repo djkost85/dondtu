@@ -1,0 +1,32 @@
+div#slider {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+div#slider img {
+  cursor: pointer;
+  width: 1020px;
+  height: 420px;
+}
+
+div#seld {
+  cursor: pointer;
+  background-color: black;
+  position: absolute;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+  filter: alpha(opacity=25);
+  -khtml-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
+  display: none;
+  z-index: 3;
+}
+
+div#curd {
+  background-color: #888;
+  position: absolute;
+  height: 1px;
+  z-index: 2;
+}

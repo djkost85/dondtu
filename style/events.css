@@ -1,0 +1,72 @@
+.events {
+  padding: 0;
+  width: 275px;
+  margin-top: 10px;
+  display: block;
+  overflow: hidden;
+}
+
+.events hr {
+  height: 1px;
+  border: none;
+  border-top: solid 1px #ccc;
+  margin: 30px 7px 20px 7px;
+}
+
+.events .event {
+  margin-top: 10px;
+  display: block;
+  overflow: hidden;
+}
+
+.events .event .time {
+  background: url(../images/date.png) no-repeat 0% 0%;
+  color: #636363;
+  float: left;
+  width: 69px;
+  height: 57px;
+  overflow: hidden;
+  padding: 12px 0 0 0;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  padding: 12px 10px 20px 0;
+}
+
+.events .event .about {
+  float: left;
+  width: 180px;
+  padding-top: 15px;
+}
+
+.events .event .about .preview {
+  font-size: 12px;
+  line-height: 20px;
+  color: #636363;
+  padding-top: 10px;
+  display: inline;
+}
+
+.events .event .about .more {
+  border-left: solid 1px #b6b6b6;
+  color: #1c567f;
+  margin-left: 5px;
+  padding-left: 5px;
+  display: inline;
+}
+
+.events .event .about .more:hover {
+  text-decoration: underline;
+}
+
+.events .event .about .header {
+  font-size: 12px;
+  color: #373737;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.events .event .about .header:hover {
+  color: #1c567f;
+}
